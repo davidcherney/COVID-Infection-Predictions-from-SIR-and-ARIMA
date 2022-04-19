@@ -57,11 +57,10 @@ The three populations exchange members as time goes on as shown in the diagram b
 
 If, further, a vaccine is administered to $\alpha$ percent of the susceptable population each unit of time (e.g. ten percent every week) the the differential equation describing the populations becomes
 
-<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
-= \left( \begin{array}{c}-\alpha S-aSI+cR \\ aSI -bI \\ bI-cR   \end{array} \right) . 
-$$ --> 
+<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) = \left( \begin{array}{c}-\alpha S-aSI+cR \\ aSI -bI \\ bI-cR   \end{array} \right) . $$ --> 
 
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D-%5Calpha%20S-aSI%2BcR%20%5C%5C%20aSI%20-bI%20%5C%5C%20bI-cR%20%20%20%5Cend%7Barray%7D%20%5Cright)%20.%20"></div>
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
+
 #### 1.2) Herd Immunity
 The condition for a decrease in the number of infections in time, $\frac{dI}{dt} <0$, a condition called **herd immunity**, is mathematically
 $$\frac{d}{dt} I < 0 \Leftrightarrow S <\frac{b}{a}.$$
