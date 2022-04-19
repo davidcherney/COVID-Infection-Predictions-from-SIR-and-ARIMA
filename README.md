@@ -52,7 +52,7 @@ The three populations exchange members as time goes on as shown in the diagram b
 - $c$ is called **deimunization rate**
 - $\alpha$ is called **vaccination rate**
 
-<img src="code/images/full_SIR.png" alt="drawing" width="400"/>
+<img src="images/full_SIR.png" alt="drawing" width="400"/>
 
 
 If, further, a vaccine is administered to $\alpha$ percent of the susceptable population each unit of time (e.g. ten percent every week) the the differential equation describing the populations becomes
