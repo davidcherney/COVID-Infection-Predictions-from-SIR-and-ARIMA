@@ -42,7 +42,7 @@ The Federal Department of Health has put together a team of data scientist to he
 ##### 1.1) Introducing Variables and Parameters
 
 SIR models provide a theoretical framework for the time rates of change of three populations in an outbreak of a contageous disease. The populations in the model are given the shorthand 
-- $S$ for the number of people in the population that are suscptable to getting infected
+- <!-- $S$ --> <img style="transform: translateY(0.1em); background: white;" src="../../svg/nIhqUbjXNd.svg"> for the number of people in the population that are suscptable to getting infected
 - $I$ for the number of people that are infected
 - $R$ for the people that are recovered from the disease (and are therefore imune, possibly only temporarily)
 The three populations exchange members as time goes on as shown in the diagram below. For example, suscepable people become infected. The following directed graph shows the exchanges in the model with $a,~b,~c,$ and $\alpha$ as arbitary numbers. 
@@ -57,9 +57,11 @@ The three populations exchange members as time goes on as shown in the diagram b
 
 If, further, a vaccine is administered to $\alpha$ percent of the susceptable population each unit of time (e.g. ten percent every week) the the differential equation describing the populations becomes
 
-$$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
+<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
 = \left( \begin{array}{c}-\alpha S-aSI+cR \\ aSI -bI \\ bI-cR   \end{array} \right) . 
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="../../svg/zxiPHgkow3.svg"></div>
 #### 1.2) Herd Immunity
 The condition for a decrease in the number of infections in time, $\frac{dI}{dt} <0$, a condition called **herd immunity**, is mathematically
 $$\frac{d}{dt} I < 0 \Leftrightarrow S <\frac{b}{a}.$$
