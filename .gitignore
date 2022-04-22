@@ -1,0 +1,6 @@
+# ignore the latex files
+/latex
+
+# ignore the place I edit the readme file
+readme.ipynb
+
